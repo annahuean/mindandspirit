@@ -357,9 +357,9 @@ footer p {
   }
 
   .center-container {
-    margin: 8rem auto;
-    padding: 1rem;  
-    gap: 1rem;             
+    margin: 10rem auto;
+    padding: 2rem;  
+    gap: 3rem;             
   }
 
   .logo-link {
