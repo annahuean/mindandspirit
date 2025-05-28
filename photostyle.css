@@ -342,9 +342,10 @@ footer p {
   border: none;
   object-fit: contain;
 }
+.doc-link {
+    display: none;
+  }
 
-
-/* ====== MOBILE STYLES ====== */
 
 @media (max-width: 1000px) {
 
@@ -357,9 +358,22 @@ footer p {
   }
 
   .pdf-viewr{
-    display: hidden;
+    display: none;
   }
-  
+
+  .pdf-viewr {
+    display: none;
+  }
+
+  .doc-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    text-decoration: underline;
+    margin: 1rem 0;
+  }
+
   .center-container {
     margin: 7rem auto;
     padding: 2rem;  
