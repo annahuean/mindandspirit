@@ -367,6 +367,9 @@ a.doc-link {
     font-weight: 300;
     font-size: clamp(0.5rem,1rem,3rem);
     color: #000;
+  }
+
+  a.doc-link{
     display: flex;
     align-items: center;
     justify-content: center;
