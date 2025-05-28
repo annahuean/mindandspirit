@@ -343,8 +343,8 @@ footer p {
   object-fit: contain;
 }
 
-.imagecap.doc-link {
-  display: none !important;
+a.doc-link {
+  display: none;
 }
 
 
