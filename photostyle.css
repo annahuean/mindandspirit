@@ -344,7 +344,7 @@ footer p {
 }
 
 .imagecap.doc-link {
-  display: none;
+  display: none !important;
 }
 
 
