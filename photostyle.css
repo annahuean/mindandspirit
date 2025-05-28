@@ -342,10 +342,14 @@ footer p {
   border: none;
   object-fit: contain;
 }
-.doc-link {
+
+
+@media(max-width: 1001px){
+  .doc-link {
     display: none;
   }
 
+}
 
 @media (max-width: 1000px) {
 
@@ -358,10 +362,6 @@ footer p {
   }
 
   .pdf-viewr{
-    display: none;
-  }
-
-  .pdf-viewr {
     display: none;
   }
 
