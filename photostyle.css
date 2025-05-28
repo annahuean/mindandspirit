@@ -356,6 +356,10 @@ footer p {
     position: relative;
   }
 
+  .pdf-viewr{
+    display: hidden;
+  }
+  
   .center-container {
     margin: 7rem auto;
     padding: 2rem;  
