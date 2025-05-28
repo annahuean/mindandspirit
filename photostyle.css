@@ -126,6 +126,7 @@ font-weight: 300;
   border: none;
   font-size: 2rem;
   cursor: pointer;
+  color: #000;
 }
 
 
@@ -354,6 +355,13 @@ footer p {
     margin-left: auto;
     position: relative;
   }
+
+  .center-container {
+    margin: 8rem auto;
+    padding: 1rem;  
+    gap: 1rem;             
+  }
+
   .logo-link {
     flex: 0 0 auto;
     max-width: 50%;
