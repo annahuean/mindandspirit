@@ -348,7 +348,7 @@ a.doc-link {
 }
 
 
-@media (max-width: 1000px) {
+@media (max-width: 1080px) {
 
   .header-container {
     display: flex;
