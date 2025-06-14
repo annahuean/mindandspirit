@@ -61,12 +61,21 @@ header {
   margin-right: 1rem;
 }
 
-.logorot{
-  width: 40vw; 
+.logorot img{
+  width: 30vw; 
   height: auto; 
-  @media (max-width: 1000px) {  
-     width: 60vw;}
+  animation: rotation 6s infinite linear;
 }
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 /* ====== NAVIGATION ====== */
 nav {
   display: flex;
