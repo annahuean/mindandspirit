@@ -12,6 +12,7 @@ html, body {
   font-weight: 200;
   overflow-x: auto;
   margin: 0;
+  scroll-behavior: smooth;
 }
 
 .page-layout {
@@ -60,6 +61,12 @@ header {
   margin-right: 1rem;
 }
 
+.logorot{
+  width: 40vw; 
+  height: auto; 
+  @media (max-width: 1000px) {  
+     width: 60vw;}
+}
 /* ====== NAVIGATION ====== */
 nav {
   display: flex;
@@ -356,6 +363,14 @@ a.doc-link {
     align-items: center;
     margin-left: auto;
     position: relative;
+  }
+
+  .logorot{
+    width: 60vw;
+  }
+
+  .logo-link{
+    width: 80vw;
   }
 
   .pdf-viewr{
