@@ -62,18 +62,8 @@ header {
 }
 
 .logorot img{
-  width: 30vw; 
+  width: 20vw; 
   height: auto; 
-  animation: rotation 6s infinite linear;
-}
-
-@keyframes rotation {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
 
 /* ====== NAVIGATION ====== */
